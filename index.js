@@ -1,5 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import InputIcon from '@volenday/input-icon';
 
 export default props => {
@@ -24,15 +23,7 @@ export default props => {
 			}
 
 			if (!value) return null;
-
-			let newValue = value;
-			const valueSplit = newValue.split(' ');
-			if (valueSplit.length == 2) {
-				const iconSplit = valueSplit[1].split('-');
-				iconSplit.shift();
-				newValue = [valueSplit[0], iconSplit.join('-')];
-			}
-			return <FontAwesomeIcon icon={newValue} />;
+			return <i class={value} />;
 		}
 	};
 };
