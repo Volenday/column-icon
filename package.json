@@ -1,6 +1,6 @@
 {
 	"name": "@volenday/column-icon",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"private": false,
 	"license": "MIT",
 	"author": "Jerome Miranda <jerome.m.miranda@gmail.com>",
@@ -15,7 +15,7 @@
 		"react": "~16.8.6"
 	},
 	"dependencies": {
-		"@volenday/input-icon": "~0.0.10",
+		"@volenday/input-icon": "~0.0.12",
 		"react": "~16.8.6",
 		"webpack": "~4.35.0"
 	},
