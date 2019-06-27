@@ -52,6 +52,10 @@ module.exports = {
 		chunkFilename: '[name].[chunkhash].chunk.min.js',
 		libraryTarget: 'commonjs2'
 	},
+	externals: {
+		'@volenday/input-icon': 'commonjs2 @volenday/input-icon',
+		react: 'commonjs2 react'
+	},
 	plugins: [
 		new webpack.optimize.AggressiveMergingPlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
