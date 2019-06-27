@@ -952,15 +952,16 @@
     react "~16.8.6"
     react-dom "~16.8.6"
 
-"@volenday/input-icon@~0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@volenday/input-icon/-/input-icon-0.0.10.tgz#fc3424fdb3de68c59e7cd528872a09ece2af72bf"
-  integrity sha512-wXthJp9+kZ632vz/4olX7E6y5sQZCtybDsJvnDfLkLFKieNGK0P0CklphZVTNDbjrwGTyfEqYycPjLmod5yEzQ==
+"@volenday/input-icon@~0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@volenday/input-icon/-/input-icon-0.0.12.tgz#17343b004f3da8b6e8e631efd12fb1c131e24c7e"
+  integrity sha512-SG7R8uuFOthpESg3oMPOoFN5elfSwrRTf7RAS1D89Tg6z4efwXgDcOrJtENEdCoF6dgXccQ5rszqU+8ZvNyHZQ==
   dependencies:
     "@volenday/input-date" "~0.0.7"
     evergreen-ui "^4.17.0"
     fontawesome-iconpicker "~3.2.0"
     react "~16.8.6"
+    webpack "~4.35.0"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
