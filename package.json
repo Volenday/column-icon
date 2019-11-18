@@ -1,23 +1,18 @@
 {
 	"name": "@volenday/column-icon",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"private": false,
 	"license": "MIT",
-	"author": "Jerome Miranda <jerome.m.miranda@gmail.com>",
+	"author": "Volenday <developers@volenday.com>",
 	"scripts": {
 		"dev": "webpack --progress --watch",
 		"build": "webpack --progress -p",
 		"prepublishOnly": "webpack --progress -p"
 	},
 	"main": "dist/index.min.js",
-	"peerDependencies": {
-		"@volenday/input-icon": "~0.0.10",
-		"react": "~16.8.6"
-	},
 	"dependencies": {
 		"@volenday/input-icon": "^0.1.8",
-		"react": "^16.11.0",
-		"webpack": "^4.41.2"
+		"react": "^16.12.0"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.7.2",
@@ -50,6 +45,7 @@
 		"node-sass": "^4.13.0",
 		"sass-loader": "^8.0.0",
 		"style-loader": "^1.0.0",
+		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.10"
 	}
 }
