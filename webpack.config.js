@@ -55,6 +55,7 @@ module.exports = {
 	},
 	externals: {
 		'@volenday/input-icon': '@volenday/input-icon',
+		antd: 'antd',
 		react: 'react'
 	},
 	plugins: [
