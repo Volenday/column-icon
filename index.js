@@ -1,6 +1,5 @@
 import React, { memo, Suspense } from 'react';
 import { Skeleton } from 'antd';
-import InputIcon from '@volenday/input-icon';
 
 const browser = typeof process.browser !== 'undefined' ? process.browser : true;
 
